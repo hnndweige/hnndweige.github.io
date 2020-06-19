@@ -18,18 +18,18 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"zlwkyzheda.xyz","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"zlwkyzheda.xyz","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="双耳不闻天下事，一心只读圣贤书">
+  <meta name="description" content="双非一本计算机本科学生，考研党。大学期间划水严重，最近愈来愈觉得自己菜，有时候想写东西到知乎，微博等平台，但是不想占用公共资源所以自己弄了个简单博客希望以后能够把自己所收获的内容写在这里，起码这样能知道自己写过什么东西做过什么事情学过什么东西，用于自省争取每天写一点东西，考研的知识也好，算法的知识也好。总之，不想再划水了">
 <meta property="og:type" content="website">
-<meta property="og:title" content="about">
+<meta property="og:title" content="zlw的博客">
 <meta property="og:url" content="http://zlwkyzheda.xyz/about/index.html">
 <meta property="og:site_name" content="zlw的博客">
-<meta property="og:description" content="双耳不闻天下事，一心只读圣贤书">
+<meta property="og:description" content="双非一本计算机本科学生，考研党。大学期间划水严重，最近愈来愈觉得自己菜，有时候想写东西到知乎，微博等平台，但是不想占用公共资源所以自己弄了个简单博客希望以后能够把自己所收获的内容写在这里，起码这样能知道自己写过什么东西做过什么事情学过什么东西，用于自省争取每天写一点东西，考研的知识也好，算法的知识也好。总之，不想再划水了">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-06-19T02:04:18.000Z">
-<meta property="article:modified_time" content="2020-06-19T02:04:18.493Z">
+<meta property="article:published_time" content="2020-06-19T15:26:50.219Z">
+<meta property="article:modified_time" content="2020-06-19T15:26:50.219Z">
 <meta property="article:author" content="zlw">
 <meta name="twitter:card" content="summary">
 
@@ -46,7 +46,7 @@
   };
 </script>
 
-  <title>about | zlw的博客
+  <title> | zlw的博客
 </title>
   
 
@@ -78,6 +78,7 @@
   </style>
 </noscript>
 
+<link rel="alternate" href="/rss2.xml" title="zlw的博客" type="application/rss+xml">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -105,6 +106,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -149,11 +151,38 @@
     <a href="/schedule/" rel="section"><i class="calendar fa-fw"></i>日程表</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -181,7 +210,7 @@
     <div class="post-block" lang="zh-CN">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">about
+<h1 class="post-title" itemprop="name headline">
 </h1>
 
 <div class="post-meta">
@@ -195,7 +224,10 @@
       
       
       <div class="post-body">
-          
+          <blockquote>
+<p>双非一本计算机本科学生，考研党。大学期间划水严重，最近愈来愈觉得自己菜，有时候想写东西到知乎，微博等平台，但是不想占用公共资源所以自己弄了个简单博客希望以后能够把自己所收获的内容写在这里，起码这样能知道自己写过什么东西做过什么事情学过什么东西，用于自省<br><em>争取每天写一点东西，考研的知识也好，算法的知识也好。总之，不想再划水了</em></p>
+</blockquote>
+
       </div>
       
       
@@ -414,6 +446,8 @@ $(document).ready(function() {
 
 
 
+  
+<script src="/js/local-search.js"></script>
 
 
 
@@ -424,6 +458,10 @@ $(document).ready(function() {
 
 
 
+
+
+
+  
 
   
 
