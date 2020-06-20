@@ -4,13 +4,27 @@
   
     
     <entry>
-      <title>博客建成</title>
-      <link href="/2020/06/19/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E6%88%90/"/>
-      <url>/2020/06/19/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E6%88%90/</url>
+      <title>这是我的第一篇博客</title>
+      <link href="/2020/06/20/%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2020/06/20/%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
       
-        <content type="html"><![CDATA[<p>博客终于创建完成了，花了一天时间~</p>]]></content>
+        <content type="html"><![CDATA[<p>这是第一篇测试<code>hexo</code>博客。</p>]]></content>
       
       
+      <categories>
+          
+          <category> 搭建博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
       
     </entry>
     
